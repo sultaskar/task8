@@ -2,8 +2,8 @@ package task3.model;
 
 public class Act {
 
-    protected int number;
-    protected String date;
-    protected String[] goods;
+    public int number;
+    public String date;
+    public String[] goods;
 
 }

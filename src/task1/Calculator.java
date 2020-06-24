@@ -4,27 +4,27 @@ public class Calculator {
 
     static double result;
 
-    public static double Subtract(double a, double b) {
+    public static double subtract(double a, double b) { // Метод вычитания первого аргумента из второго
         result = a - b;
         return result;
     }
 
-    public static double Summ(double a, double b) {
+    public static double summ(double a, double b) { // Метод сложения первого аргумента со вторым
         result = a + b;
         return result;
     }
 
-    public static double Multiple(double a, double b) {
+    public static double multiple(double a, double b) { // Метод умножения первого аргумента на второй
         result = a * b;
         return result;
     }
 
-    public static double Divide(double a, double b) {
+    public static double divide(double a, double b) { // Метод деления первого аргумента на второй
         result = a / b;
         return result;
     }
 
-    public static double Percent(double a, double b) {
+    public static double percent(double a, double b) { // Метод вычисления b процентов из числа a
         result = a / 100 * b;
         return result;
     }
